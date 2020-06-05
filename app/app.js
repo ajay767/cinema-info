@@ -15,7 +15,7 @@ function getMovieData(value) {
 
                 var movie = data.Search;
                 
-                for (let i = 0; i < movie.length; i++)
+                for (let i = movie.length-1; i >0; i--)
                  {
                     let html = `<div class="movie-card">
                       <div class="poster"><img src="${movie[i].Poster}"alt="poster"></div><div class="content"></div></div>`;
