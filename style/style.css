@@ -69,6 +69,7 @@ body {
 }
 
 .error {
+    margin: 10px 0px;
     transition: all 0.3s ease;
     height: 62px;
     width: 92%;
